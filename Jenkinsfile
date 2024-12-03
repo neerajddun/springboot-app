@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/neerajddun/springboot-app.git', branch: 'main'
+                git url: 'https://github.com/neerajddun/springboot-app.git', branch: 'master'
             }
         }
         stage('Build') {
